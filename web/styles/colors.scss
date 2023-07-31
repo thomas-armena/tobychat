@@ -1,0 +1,24 @@
+/*
+Example usage: 
+
+@import '../../styles/colors.scss';
+
+.chatroom {
+    background-color: $col-background;
+}
+*/
+
+$col-foreground: #000000;
+$col-background: #f6f6f6;
+
+$col-primary-dark: #5180b6;
+$col-primary-main: #5d92d0;
+$col-primary-light: #c2deff;
+
+$col-secondary-dark: #7e4493;
+$col-secondary-main: #9b54b4;
+$col-secondary-light: #b866d6;
+
+$col-gray-light: #dee4eb;
+$col-gray-medium: #adb3b9;
+$col-gray-dark: #6a7480;

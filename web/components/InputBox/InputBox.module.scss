@@ -1,0 +1,30 @@
+@import "../../styles/colors.scss";
+
+.input-box {
+    border: 0px;
+    border-bottom: 2px solid $col-gray-medium;
+    padding: 4px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+
+    width: 100%;
+    &:focus,
+    &:active,
+    &:hover {
+        border-bottom: 2px solid $col-primary-dark;
+    }
+}
+
+.label {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.input-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

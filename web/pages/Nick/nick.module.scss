@@ -1,0 +1,20 @@
+.profileImgScreen {
+    width: 500px;
+    height: 500px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.profileImgDisplay {
+    width: 19rem;
+    height: 19rem;
+}
+
+.characterOptionDiv {
+    margin-top: 2rem;
+    label {
+        padding-right: 1rem;
+    }
+}

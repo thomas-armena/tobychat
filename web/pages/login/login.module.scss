@@ -1,0 +1,23 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form {
+    width: min(100%, 400px);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

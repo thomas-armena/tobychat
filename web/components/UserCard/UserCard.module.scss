@@ -1,0 +1,28 @@
+@import "../../styles/colors.scss";
+
+.user-card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+
+    .details {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.name {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.tagline {
+    color: $col-gray-dark;
+}

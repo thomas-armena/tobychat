@@ -1,0 +1,32 @@
+.expressionMenuComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    position: relative;
+    margin-right: 2%;
+
+    .facialExpressions {
+        position: absolute;
+        bottom: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 120%;
+        background: #10e2e92a;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        .facialExpression {
+            box-sizing: border-box;
+        }
+        ::hover {
+            cursor: pointer;
+        }
+    }
+    button {
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+}

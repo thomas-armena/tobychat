@@ -1,0 +1,8 @@
+@import "../../styles/colors.scss";
+
+.divider {
+    height: 1px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: $col-gray-light;
+}
